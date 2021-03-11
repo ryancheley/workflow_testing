@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: learn-github-actions-push
 on: push
 jobs:
   say_hello_push:
