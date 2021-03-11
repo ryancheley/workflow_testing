@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - run: |
-        echo "This is a test of Push"
+        echo "This is a test of Pull Request"
