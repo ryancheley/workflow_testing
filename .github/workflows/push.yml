@@ -1,7 +1,7 @@
 name: learn-github-actions
-on: [push]
+on: push
 jobs:
-  deploy:
+  say_hello_push:
     runs-on: ubuntu-18.04
     steps:
     - run: |
