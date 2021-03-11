@@ -1,0 +1,8 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - run: |
+        echo "This is a test of Push"
