@@ -1,7 +1,7 @@
 name: learn-github-actions
-on: [pull_request]
+on: pull_request
 jobs:
-  deploy:
+  say_hello_pull_request:
     runs-on: ubuntu-18.04
     steps:
     - run: |
