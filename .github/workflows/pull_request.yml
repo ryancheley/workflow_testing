@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: learn-github-actions-pr
 on: pull_request
 jobs:
   say_hello_pull_request:
