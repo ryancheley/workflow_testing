@@ -1,11 +1,4 @@
-name: learn-github-actions
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '*/15 * * * *'    
-  jobs:
-    say_hello_schedule:
-      runs-on: ubuntu-18.04
-      steps:
-      - run: |
-          echo "This is a test of Push"
+    - cron:  '*/15 * * * *'
